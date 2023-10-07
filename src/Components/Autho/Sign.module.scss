@@ -1,0 +1,41 @@
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .inputs_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        button{
+            width: 305px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 0;
+            padding: 4px;
+        }
+        p{
+            text-align: center;
+            color:rgb(46, 0, 139);
+            font-size: 20px;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+            input{
+                padding-left: 5px;
+                color:black;
+                margin: 10px;
+                background-color: transparentize($color: #7c7878, $amount: 0);
+                border: 0;
+                width: 300px;
+                height: 20px;
+                border-radius: 5px;
+            }
+            input::placeholder {
+                color: rgb(46, 45, 45);
+        }
+        }
+    }
+}
